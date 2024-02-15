@@ -1,0 +1,36 @@
+/* Basic CSS styling for the weather app */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightskyblue;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #weatherInfo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: lightpink;
+  }
+  
